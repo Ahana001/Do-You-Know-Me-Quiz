@@ -1,22 +1,8 @@
-var readlineSync = require('readline-sync');
-var score = 0;
-var user = readlineSync.question("What is your name? ");
-console.log("Welcome ",user , "to Do YOU KNOW ANKITA QUIZ ? ");
-
-function play(question,answer){
-  var userAns = readlineSync.question(question);
-  if(userAns === answer){
-    console.log("you are right")
-    score = score + 1;
-  }else{
-    console.log("You are wrong")
-  }
-}
 
 var questions = [
   {
   question: "where do I live?  \n",
-  answer : "Bhavnagar"
+  answer : "bhavnagar"
   },
    {
     question : "what is my favourite color?  \n",
@@ -31,5 +17,17 @@ var questions = [
 for(let i = 0; i<questions.length; i++){
   play(questions[i].question,questions[i].answer)
 }
-
-console.log("Your Final Score : ", score);
+function checkHighScore(score) {
+    highScores.forEach((data) => {
+        if (score >= data.score) {
+            log(
+                right(
+                    "Contragts, You made a highscore By beating",
+                    chalk.bgCyanBright.black(data.name)
+                )
+            );
+        }
+    });
+}
+checkHighScore(score);
+console.log("Your Final Score : ",score);
