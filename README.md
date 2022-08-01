@@ -8,7 +8,7 @@ It is a CLI quiz app for Ankita's friends and families to check how well do they
 
 * on the basis of the answers given , the user will get the scores accordingly . Please note that , there's no negative points for wrong / incorrect answers .
 
-* The users are requested to send Ankita the screenshot of their final score so that , high scores can be shown accordingly , and analysis can be made a bit more easier.
+* If you made high score then it will show username which you have beaten.
 
 * The highscores at the end of the quiz shows who all know Ankita very well .
 
