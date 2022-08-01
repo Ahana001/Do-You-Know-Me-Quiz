@@ -1,6 +1,17 @@
 # Do-You-Know-Me-Quiz
 It is a CLI quiz app for Ankita's friends and families to check how well do they know her 😁. This super interesting quiz is made using nodejs.
 
+# Work Flow
+* Firstly, It takes username from user to know who's attending the quiz .
+
+* After that the user is asked few questions related to Ankita to check how well do they know her.
+
+* on the basis of the answers given , the user will get the scores accordingly . Please note that , there's no negative points for wrong / incorrect answers .
+
+* The users are requested to send Anjali the screenshot of their final score so that , high scores can be shown accordingly , and analysis can be made a bit more easier.
+
+* The highscores at the end of the quiz shows who all know Ankita very well .
+
 # Preview
 ![quiz](https://user-images.githubusercontent.com/50478681/176250715-57192eb6-ddee-47a7-b004-cd19f197c5d3.png)
 
