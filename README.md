@@ -13,7 +13,7 @@ It is a CLI quiz app for Ankita's friends and families to check how well do they
 * The highscores at the end of the quiz shows who all know Ankita very well .
 
 # Preview
-![quiz](https://user-images.githubusercontent.com/50478681/176250715-57192eb6-ddee-47a7-b004-cd19f197c5d3.png)
+![quiz](https://user-images.githubusercontent.com/50478681/182415557-5a14fa21-e81f-4c9f-bc74-8bee09ccb384.png)
 
 
 # Packages used:
