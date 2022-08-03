@@ -13,7 +13,7 @@ let highScores = [
   },
   {
     name: "John",
-    score: "4",
+    score: "3",
   },
 ];
 var user = readlineSync.question("What is your name? ");
@@ -56,7 +56,7 @@ for (let i = 0; i < questions.length; i++) {
 }
 function checkHighScore(score) {
   highScores.forEach((data) => {
-    if (score >= data.score) {
+    if (score > data.score) {
       log(
         right(
           "Contragts, You made a highscore By beating",
